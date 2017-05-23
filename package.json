@@ -1,0 +1,14 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "Homework 1",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Sergei Piianzin",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
