@@ -1,0 +1,98 @@
+.main {
+  background-color: #e3f2fa;
+  border: 1px solid green;
+  position: fixed;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.app {
+  position: relative;
+}
+
+.delButton {
+  float: right;
+}
+
+.editButton {
+  float: right;
+}
+
+.subTask {
+  margin-left: 20px;
+}
+
+.edit {
+  background: #f0f0f0;
+  display: inline-block;
+  width: 60%;
+  height: 400px;
+}
+
+.todo {
+  background: #f0f0f0;
+  display: inline-block;
+  width: 60%;
+}
+
+.todoItemWrapper {
+  border: 1px solid red;
+  height: 70px;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.inputs {
+  position: fixed;
+  float: right;
+  width: 95%;
+}
+
+.addTodo {
+  position: relative;
+  float: right;
+}
+
+.addTask {
+  position: relative;
+  float: left;
+}
+
+.todoItem {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tasks {
+  width: 35%;
+  float: left;
+  position: relative;
+}
+
+.taskDoneCheckbox {
+  display: inline-block;
+}
+
+.taskName {
+  display: inline-block;
+}
+
+.button {
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+
+}
+
+.button:hover,
+.button.hover {
+  background-color: #346392;
+  text-shadow: -1px 1px #27496d;
+}
+.button:active,
+.button.active {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
